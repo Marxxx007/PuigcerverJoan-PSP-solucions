@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class DestroyProcess {
     public static void main (String[] args) {
         // Indica la comanda que utilitza aquest programa per iniciar un nou procés
-        String[] program = {"powershell", "sleep", "5"};
+        String[] program = {"powershell", "sleep", "200"};
 
         try {
             Runtime runtime = Runtime.getRuntime();

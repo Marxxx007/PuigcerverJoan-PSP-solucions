@@ -22,7 +22,7 @@ public class RunPipelineColors {
             for(Process p : processes)
                 p.waitFor();
 
-            Process last = processes.getLast(); // .get(processes.size() - 1);
+            Process last = processes.get(processes.size() - 1);
             BufferedReader stdout = new BufferedReader(new InputStreamReader(last.getInputStream()));
 
             String line;

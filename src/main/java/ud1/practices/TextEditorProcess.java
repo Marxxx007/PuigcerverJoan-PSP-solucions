@@ -8,7 +8,7 @@ public class TextEditorProcess {
     public static void main(String[] args) {
         String filePath = "files/ud1/text.txt";
 
-        ProcessBuilder pbEditor = new ProcessBuilder("gnome-text-editor", filePath);
+        ProcessBuilder pbEditor = new ProcessBuilder("notepad", filePath);
         ProcessBuilder pbContingut = new ProcessBuilder("cat", filePath);
 
         try {

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class LaunchApplications {
     public static void main(String[] args) {
+
         ArrayList<String[]> applications = new ArrayList<>();
         // Totes aquelles aplicacions que no estiguen en la variable d'entorn $PATH
         // han de ser especificades en la ruta al programa
